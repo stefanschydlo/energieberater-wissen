@@ -2,36 +2,91 @@
  "typ": "ebp-wissen",
  "version": 1,
  "meta": {
-  "stand": "06.11.2026",
-  "lastCheck": "2026-11-06T08:20:00Z",
-  "nextCheck": "2026-11-09",
-  "summary": "Ausgangsstand vom 06.11.2026: BEG-Infoblatt 11.1 und techn. FAQ 8.0 seit 01.11.2026; Eckpunkte zur Grüngasquote (Gesetzentwurf bis 01.12.2026); WPB-Bonus und Wertschöpfungsregel für Wärmepumpen voraussichtlich ab Q1 2027."
+  "stand": "09.11.2026",
+  "lastCheck": "2026-11-09T05:55:00Z",
+  "nextCheck": "2026-11-16",
+  "summary": "AT: Laut amtlichem Infoblatt gelten die niedrigeren Kesseltausch-Pauschalen (WP 5.000 €, Holz 6.000 €, Fernwärme 4.000 €, Solar +2.500 €) bereits seit der Neuauflage am 02.11.2026 und bleiben 2027 gleich – Rechenwerte at.kt angepasst; Registrierung nur bis 31.12.2026, Sanierungsbonus 2027 (500 Mio. € Gesamtbudget) ab 04.01.2027. DE: Grüngasquote-Gesetzentwurf bis 01.12.2026 weiter offen, BMWE kann Kosten nicht beziffern; Gebäudeforum mit neuem WEG-Finanzierungsleitfaden. CH/EU: keine neuen amtlichen Änderungen gefunden.",
+  "quellen": [
+   "sanierungsoffensive.gv.at",
+   "bmluk.gv.at",
+   "gmodg.bund.de",
+   "gebaeudeforum.de",
+   "bafa.de",
+   "kfw.de",
+   "din.de",
+   "oekozentrum.nrw",
+   "oib.or.at",
+   "dasgebaeudeprogramm.ch",
+   "eur-lex.europa.eu",
+   "handwerkundbau.at",
+   "ad-hoc-news.de"
+  ]
  },
  "news": [
   {
-   "id": "2026-10-duh-verfassungsbeschwerde",
-   "added": "2026-11-06T08:20:00Z",
-   "cat": "Gesetz",
-   "date": "2026-11-06",
-   "impact": "info",
-   "praxis": "Keine unmittelbare Auswirkung; Verfahren beobachten.",
-   "source": "Tagesspiegel Background",
-   "summary": "Die Deutsche Umwelthilfe hat mit jungen Mieterinnen und Mietern Verfassungsbeschwerde gegen das Gebäudemodernisierungsgesetz eingereicht (genaues Datum in der Quelle nicht angegeben). Das Gesetz gilt unverändert weiter.",
-   "title": "Verfassungsbeschwerde der DUH gegen das GModG",
-   "url": "https://background.tagesspiegel.de/energie-und-klima/briefing/duh-reicht-verfassungsbeschwerde-gegen-gmodg-ein"
+   "id": "2026-11-09-rechenwert-at-kt-ab2027",
+   "added": "2026-11-09T05:51:00Z",
+   "cat": "Förderung",
+   "date": "2026-11-09",
+   "impact": "hoch",
+   "land": "AT",
+   "praxis": "Kunden, die mit den alten Beträgen (z. B. 7.500 € für WP) gerechnet haben, informieren und Angebote neu kalkulieren.",
+   "source": "Sanierungsoffensive (BMLUK)",
+   "summary": "Stichtag für die neuen (niedrigeren) Kesseltausch-Pauschalen: alt 2027-01-04, neu 2026-11-02. Die Pauschalen 5.000/6.000/4.000 € gelten laut Infoblatt bereits für die Neuauflage ab 02.11.2026, nicht erst ab Jänner 2027.",
+   "title": "Rechenwert aktualisiert: at.kt.ab2027",
+   "url": "https://www.sanierungsoffensive.gv.at/kesseltausch/neuauflage-ein-/zweifamilienhaus-oder-reihenhaus"
+  },
+  {
+   "id": "2026-11-09-rechenwert-at-kt-p2027-fw",
+   "added": "2026-11-09T05:51:00Z",
+   "cat": "Förderung",
+   "date": "2026-11-09",
+   "impact": "hoch",
+   "land": "AT",
+   "praxis": "Fernwärme-Fälle in Österreich mit 4.000 € Bundesförderung kalkulieren.",
+   "source": "Sanierungsoffensive (BMLUK)",
+   "summary": "Pauschale Nah-/Fernwärmeanschluss neue Runde: alt 0 (unbekannt), neu 4.000 €. Beleg: Infoblatt Neuauflage Kesseltausch 2026 EFH, Version 10/2026; laut Förderstelle bleiben die Beträge 2027 gleich.",
+   "title": "Rechenwert aktualisiert: at.kt.p2027.fw",
+   "url": "https://www.sanierungsoffensive.gv.at/fileadmin/user_upload/2026/Infoblatt_Neuauflage_Kesseltausch_2026_EFH.pdf"
+  },
+  {
+   "id": "2026-11-09-rechenwert-at-kt-p2027-solar",
+   "added": "2026-11-09T05:51:00Z",
+   "cat": "Förderung",
+   "date": "2026-11-09",
+   "impact": "hoch",
+   "land": "AT",
+   "praxis": "Solarthermie-Kombination bei Heizungstausch weiterhin mit +2.500 € ansetzen.",
+   "source": "Sanierungsoffensive (BMLUK)",
+   "summary": "Solarbonus neue Runde: alt 0 (unbekannt), neu 2.500 € (thermische Solaranlage ab 6 m² Bruttokollektorfläche). Beleg: Infoblatt Neuauflage Kesseltausch 2026 EFH, Version 10/2026.",
+   "title": "Rechenwert aktualisiert: at.kt.p2027.solar",
+   "url": "https://www.sanierungsoffensive.gv.at/fileadmin/user_upload/2026/Infoblatt_Neuauflage_Kesseltausch_2026_EFH.pdf"
   },
   {
    "id": "2026-11-02-at-heizungstausch-registrierung",
-   "date": "2026-11-02",
    "added": "2026-11-07T16:20:00Z",
-   "land": "AT",
    "cat": "Förderung",
+   "date": "2026-11-02",
    "impact": "hoch",
-   "title": "Österreich: Neue Registrierungsrunde Bundesförderung Heizungstausch",
-   "summary": "Laut Herstellerinformation ist die Registrierung für die Bundesförderung Heizungstausch vom 02.11. bis 31.12.2026 möglich, solange Mittel verfügbar sind. Voraussetzung ist ein Energieberatungsprotokoll; Leistungen ab 07.10.2026 sind förderfähig, die Umsetzung muss innerhalb von 9 Monaten erfolgen.",
+   "land": "AT",
    "praxis": "Energieberatungsprotokoll zeitnah erstellen und Registrierung vor Auftragsvergabe veranlassen; Beträge auf sanierungsoffensive.gv.at gegenprüfen.",
    "source": "Ökofen / Sanierungsoffensive",
+   "summary": "Laut Herstellerinformation ist die Registrierung für die Bundesförderung Heizungstausch vom 02.11. bis 31.12.2026 möglich, solange Mittel verfügbar sind. Voraussetzung ist ein Energieberatungsprotokoll; Leistungen ab 07.10.2026 sind förderfähig, die Umsetzung muss innerhalb von 9 Monaten erfolgen.",
+   "title": "Österreich: Neue Registrierungsrunde Bundesförderung Heizungstausch",
    "url": "https://www.sanierungsoffensive.gv.at"
+  },
+  {
+   "id": "2026-11-02-at-kesseltausch-infoblatt-betraege",
+   "added": "2026-11-09T05:51:00Z",
+   "cat": "Förderung",
+   "date": "2026-11-02",
+   "impact": "hoch",
+   "land": "AT",
+   "praxis": "Neue Heizungstausch-Fälle mit den niedrigeren Pauschalen rechnen und Kältemittel-GWP der Wärmepumpe vor Angebot prüfen.",
+   "source": "Sanierungsoffensive (BMLUK)",
+   "summary": "Laut Infoblatt (Version 10/2026) gelten für Registrierungen ab 02.11.2026: Wärmepumpe 5.000 €, Holzzentralheizung 6.000 €, Nah-/Fernwärme 4.000 €, Solarbonus +2.500 € (ab 6 m²) und Bohrbonus +5.000 € bei Sole-/Wasser-Wasser-WP. Bei Luft-WP mit Kältemittel-GWP 150–750 bzw. Holzkesseln nur nach UZ37 (2021) werden 20 % abgezogen; die Beträge bleiben laut Förderstelle 2027 unverändert.",
+   "title": "Österreich: Amtliche Pauschalen der Kesseltausch-Neuauflage (EFH)",
+   "url": "https://www.sanierungsoffensive.gv.at/fileadmin/user_upload/2026/Infoblatt_Neuauflage_Kesseltausch_2026_EFH.pdf"
   },
   {
    "id": "2026-11-01-beg-infoblatt-11-1",
@@ -46,17 +101,56 @@
    "url": "https://www.koch-bautechnik.de/post/beg-aenderungen-november-2026"
   },
   {
+   "id": "2026-11-01-gruengasquote-kosten-unklar",
+   "added": "2026-11-09T05:51:00Z",
+   "cat": "Gesetz",
+   "date": "2026-11-01",
+   "impact": "info",
+   "land": "DE",
+   "praxis": "In Wirtschaftlichkeitsvergleichen für Gas-/Ölheizungen Preisaufschläge als Szenario (nicht als feste Größe) darstellen.",
+   "source": "ad-hoc-news (dpa)",
+   "summary": "In einer Antwort auf eine Abgeordnetenanfrage räumt das BMWE ein, keine belastbaren Angaben zu Kosten und verfügbaren Biomethan-Mengen der geplanten Quote zu haben. Geplant ist eine Beimischungspflicht der Brennstoffhändler ab 2028 mit 1 %, steigend bis 2045; Vermieter sollen ab 2028 die Hälfte der CO₂-Kosten und Gasnetzentgelte tragen.",
+   "title": "Grüngasquote: BMWE kann Kosten und Mengen nicht beziffern",
+   "url": "https://www.ad-hoc-news.de/wirtschaft/heizungsgesetz-ministerium-kann-kosten-der-gruengasquote-nicht-beziffern/70442455"
+  },
+  {
+   "id": "2026-10-gebaeudeforum-weg-finanzierung",
+   "added": "2026-11-09T05:51:00Z",
+   "cat": "Gebäudeforum",
+   "date": "2026-10-31",
+   "impact": "info",
+   "land": "DE",
+   "praxis": "Musterrechnungen und Unterlagen-Check in WEG-Beratungen und Eigentümerversammlungen einsetzen.",
+   "source": "Gebäudeforum klimaneutral (dena)",
+   "summary": "Das Gebäudeforum klimaneutral hat im Oktober 2026 einen Praxisleitfaden zur Finanzierung energetischer Sanierungen in WEGs veröffentlicht, ergänzt um Musterrechnungen (kleines/großes MFH), Entscheidungspfad Finanzierungswege, Unterlagen-Check und ein Factsheet zu Haftungsfolgen. Außerdem neu: Factsheets zur erneuerbaren Quartiersversorgung, ein KWK-Factsheet und ein iSFP-Infosheet.",
+   "title": "Gebäudeforum: Praxisleitfaden und Arbeitshilfen zur WEG-Finanzierung",
+   "url": "https://www.gebaeudeforum.de/service/downloads/"
+  },
+  {
    "id": "2027-01-04-at-sanierungsoffensive-2027",
-   "date": "2026-10-20",
    "added": "2026-11-07T16:20:00Z",
-   "land": "AT",
    "cat": "Förderung",
+   "date": "2026-10-20",
    "impact": "mittel",
-   "title": "Österreich: Sanierungsoffensive 2027 angekündigt",
-   "summary": "Ab 04.01.2027 ist laut Herstellerinformation eine neue Runde angekündigt, u. a. bis 5.000 € für Wärmepumpen und bis 6.000 € für Pelletheizungen. Details und Fernwärme-Beträge stehen noch aus.",
+   "land": "AT",
    "praxis": "Kunden mit Umsetzung ab 2027 auf die niedrigeren Beträge hinweisen.",
-   "source": "Ökofen",
+   "source": "Sanierungsoffensive / Ökofen",
+   "summary": "Ab 04.01.2027 können Anträge der Sanierungsoffensive 2027 (thermische Sanierung) gestellt werden. Die Kesseltausch-Pauschalen (WP 5.000 €, Holz 6.000 €, Fernwärme 4.000 €) gelten laut amtlichem Infoblatt bereits seit der Neuauflage am 02.11.2026 und bleiben 2027 gleich; Dämm-Fördersätze stehen noch aus.",
+   "title": "Österreich: Sanierungsoffensive 2027 angekündigt",
    "url": "https://www.sanierungsoffensive.gv.at"
+  },
+  {
+   "id": "2026-10-15-at-sanierungsoffensive-2027-budget",
+   "added": "2026-11-09T05:51:00Z",
+   "cat": "Förderung",
+   "date": "2026-10-15",
+   "impact": "mittel",
+   "land": "AT",
+   "praxis": "Dämmprojekte mit Umsetzung 2027 vormerken und Infoblätter ab Jahreswechsel abwarten, bevor Förderhöhen zugesagt werden.",
+   "source": "BMLUK",
+   "summary": "Für 2027 stehen 500 Mio. € bereit: 179 Mio. € für den Kesseltausch und 321 Mio. € für thermische Sanierung (BMLUK und BMWET). Gefördert werden u. a. umfassende und Teilsanierungen, Fenstertausch, Fassaden- und Deckendämmung, im Geschoßwohnbau auch Fenstertausch einzelner Wohnungen und Gebäudebegrünung; Anträge für die thermische Sanierung ab 04.01.2027, Fördersätze folgen in Infoblättern.",
+   "title": "Österreich: Sanierungsoffensive 2027 mit 500 Mio. € Budget",
+   "url": "https://www.bmluk.gv.at/themen/klima-und-umwelt/klima/klima-initiativen-und-foerderungen/ufg/sanierung-kesselaustausch-2027.html"
   },
   {
    "id": "2026-10-14-gruengasquote-eckpunkte",
@@ -81,6 +175,18 @@
    "summary": "Ab 2027 Berechnung nach DIN/TS 18599:2025-10, neue Pflichtangaben, digitale Ausweise. Wohngebäude behalten A+ bis H; Nichtwohngebäude erhalten A–G. Verbrauchsausweis: 24 Monate Monatsdaten je Energieträger.",
    "title": "Energieausweis ab 01.01.2027: Lesefassung verfügbar",
    "url": "https://www.gmodg.bund.de/GModG/DE/Home/startseite/GModG_News/GModG_News-node.html"
+  },
+  {
+   "id": "2026-10-duh-verfassungsbeschwerde",
+   "added": "2026-11-06T08:20:00Z",
+   "cat": "Gesetz",
+   "date": "2026-09-30",
+   "impact": "info",
+   "praxis": "Keine unmittelbare Auswirkung; Verfahren beobachten.",
+   "source": "Tagesspiegel Background",
+   "summary": "Die Deutsche Umwelthilfe hat am 30.09.2026 gemeinsam mit vier Mieterinnen und Mietern Verfassungsbeschwerde gegen das Gebäudemodernisierungsgesetz eingelegt. Die Beschwerde hat keine aufschiebende Wirkung; das Gesetz gilt unverändert weiter.",
+   "title": "Verfassungsbeschwerde der DUH gegen das GModG",
+   "url": "https://background.tagesspiegel.de/energie-und-klima/briefing/duh-reicht-verfassungsbeschwerde-gegen-gmodg-ein"
   },
   {
    "id": "2026-09-14-infoblatt-wpb",
@@ -132,58 +238,88 @@
   },
   {
    "id": "2026-07-01-at-oib-rl6-2025-wien-tirol",
-   "date": "2026-07-01",
    "added": "2026-11-07T16:20:00Z",
-   "land": "AT",
    "cat": "Energieausweis",
+   "date": "2026-07-01",
    "impact": "hoch",
-   "title": "Österreich: Neue Energieausweis-Skala A–G (OIB-RL 6:2025) in Wien und Tirol",
-   "summary": "Seit Juli 2026 gilt in Wien und Tirol die OIB-Richtlinie 6 Ausgabe 2025 mit neuer Skala A–G für Heizwärmebedarf und Endenergiebedarf. Fossil beheizte Gebäude können Klasse A nicht erreichen; die übrigen Bundesländer folgen schrittweise.",
+   "land": "AT",
    "praxis": "In Wien und Tirol Energieausweise nach neuer Skala erstellen und Kunden auf geänderte Klassen hinweisen.",
    "source": "OIB / Landesrecht",
+   "summary": "Seit Juli 2026 gilt in Wien und Tirol die OIB-Richtlinie 6 Ausgabe 2025 mit neuer Skala A–G für Heizwärmebedarf und Endenergiebedarf. Fossil beheizte Gebäude können Klasse A nicht erreichen; die übrigen Bundesländer folgen schrittweise.",
+   "title": "Österreich: Neue Energieausweis-Skala A–G (OIB-RL 6:2025) in Wien und Tirol",
    "url": "https://www.oib.or.at"
   },
   {
    "id": "2026-05-29-eu-epbd-umsetzungsfrist",
-   "date": "2026-05-29",
    "added": "2026-11-07T16:20:00Z",
-   "land": "EU",
    "cat": "Gesetz",
+   "date": "2026-05-29",
    "impact": "hoch",
-   "title": "EU: Umsetzungsfrist der Gebäuderichtlinie (EPBD) abgelaufen",
-   "summary": "Die Mitgliedstaaten mussten die EPBD (EU) 2024/1275 bis 29.05.2026 umsetzen. Dazu gehören die einheitliche Energieausweis-Skala A–G, Renovierungspässe und das Ende der Förderung eigenständiger fossiler Heizkessel.",
+   "land": "EU",
    "praxis": "Nationale Umsetzung im jeweiligen Land prüfen und Klassengrenzen im EU-Modus der App eintragen.",
    "source": "EUR-Lex",
+   "summary": "Die Mitgliedstaaten mussten die EPBD (EU) 2024/1275 bis 29.05.2026 umsetzen. Dazu gehören die einheitliche Energieausweis-Skala A–G, Renovierungspässe und das Ende der Förderung eigenständiger fossiler Heizkessel.",
+   "title": "EU: Umsetzungsfrist der Gebäuderichtlinie (EPBD) abgelaufen",
    "url": "https://eur-lex.europa.eu/eli/dir/2024/1275/oj"
   },
   {
    "id": "2026-05-15-ch-gebaeudeprogramm-kantone",
-   "date": "2026-05-15",
    "added": "2026-11-07T16:20:00Z",
-   "land": "CH",
    "cat": "Förderung",
+   "date": "2026-05-15",
    "impact": "mittel",
-   "title": "Schweiz: Förderbeiträge Heizungsersatz 2026 stark unterschiedlich",
-   "summary": "Die Kantone fördern Luft/Wasser-Wärmepumpen in Einfamilienhäusern 2026 sehr unterschiedlich – von keiner Förderung (Thurgau) über CHF 2’900 (Zürich) bis CHF 8’500 (Zug). Dämmung wird typischerweise ab CHF 40/m² bei U ≤ 0,20 W/m²K gefördert.",
+   "land": "CH",
    "praxis": "Kantonalen Beitrag auf energiefranken.ch bzw. der Kantonsseite prüfen und Gesuch vor Baubeginn einreichen.",
    "source": "Das Gebäudeprogramm / Kantone",
+   "summary": "Die Kantone fördern Luft/Wasser-Wärmepumpen in Einfamilienhäusern 2026 sehr unterschiedlich – von keiner Förderung (Thurgau) über CHF 2’900 (Zürich) bis CHF 8’500 (Zug). Dämmung wird typischerweise ab CHF 40/m² bei U ≤ 0,20 W/m²K gefördert.",
+   "title": "Schweiz: Förderbeiträge Heizungsersatz 2026 stark unterschiedlich",
    "url": "https://www.dasgebaeudeprogramm.ch"
   },
   {
    "id": "2026-02-02-at-sanierungsbonus-stopp",
-   "date": "2026-02-02",
    "added": "2026-11-07T16:20:00Z",
-   "land": "AT",
    "cat": "Förderung",
+   "date": "2026-02-02",
    "impact": "mittel",
-   "title": "Österreich: Sanierungsbonus des Bundes gestoppt",
-   "summary": "Der Sanierungsbonus für thermische Sanierungen nimmt seit 02.02.2026 keine neuen Anträge an. Für Dämmung, Fenster und Dach sind 2026 die Landesförderungen der Hauptweg.",
+   "land": "AT",
    "praxis": "Hüllmaßnahmen über die Wohnbauförderung des Bundeslands prüfen.",
    "source": "Sanierungsoffensive",
+   "summary": "Der Sanierungsbonus für thermische Sanierungen nimmt seit 02.02.2026 keine neuen Anträge an. Für Dämmung, Fenster und Dach sind 2026 die Landesförderungen der Hauptweg.",
+   "title": "Österreich: Sanierungsbonus des Bundes gestoppt",
    "url": "https://www.sanierungsoffensive.gv.at"
   }
  ],
  "watch": [
+  {
+   "id": "at-kesseltausch-registrierung-2026",
+   "detail": "Registrierung ab 02.11.2026, solange Budget (ca. 20 Mio. € Restmittel) reicht, längstens 31.12.2026; Antrag innerhalb 9 Monaten nach Registrierung; Leistungen ab 07.10.2026 förderfähig; Energieberatung Voraussetzung.",
+   "due": "2026-12-31",
+   "land": "AT",
+   "status": "beobachten",
+   "topic": "AT Kesseltausch-Neuauflage: Registrierung bis 31.12.2026",
+   "updated": "2026-11-09",
+   "url": "https://www.sanierungsoffensive.gv.at/kesseltausch/neuauflage-ein-/zweifamilienhaus-oder-reihenhaus"
+  },
+  {
+   "id": "at-oib2025-laender",
+   "detail": "Wien und Tirol seit 07/2026; Einführung in den übrigen Bundesländern beobachten.",
+   "due": "",
+   "land": "AT",
+   "status": "offen",
+   "topic": "OIB-RL 6:2025 in weiteren Bundesländern",
+   "updated": "2026-11-07",
+   "url": "https://www.oib.or.at"
+  },
+  {
+   "id": "at-sanierungsoffensive-2027",
+   "detail": "Kesseltausch geklärt (Pauschalen seit 02.11.2026, 2027 unverändert). Offen: Fördersätze Sanierungsbonus/Dämmung 2027 (Anträge ab 04.01.2027) und ob der 30-%-Kostendeckel weiter gilt (im neuen Infoblatt nicht genannt).",
+   "due": "2027-01-04",
+   "land": "AT",
+   "status": "offen",
+   "topic": "Sanierungsoffensive 2027 – Richtlinien und Beträge",
+   "updated": "2026-11-09",
+   "url": "https://www.sanierungsoffensive.gv.at"
+  },
   {
    "id": "degression-458",
    "detail": "Ab 01.02.2027: Klimageschwindigkeitsbonus 12 % (statt 16 %), Höchstbetrag 27.250 €. Weitere Absenkungen halbjährlich bis 22.000 € (ab 01.08.2030) bzw. KGB 0 % (ab 01.08.2028).",
@@ -203,12 +339,22 @@
    "url": "https://www.gebaeudeforum.de/ordnungsrecht/energieausweis/grundsaetze/"
   },
   {
+   "id": "eu-epbd-de-at",
+   "detail": "Frist 29.05.2026 abgelaufen; Umsetzungsstand in DE und AT beobachten.",
+   "due": "",
+   "land": "EU",
+   "status": "beobachten",
+   "topic": "Nationale EPBD-Umsetzung (Skala A–G, Renovierungspass)",
+   "updated": "2026-11-07",
+   "url": "https://eur-lex.europa.eu/eli/dir/2024/1275/oj"
+  },
+  {
    "id": "gruengasquote",
-   "detail": "Eckpunkte vom 14.10.2026 liegen vor; Gesetzentwurf der Bundesregierung fällig bis 01.12.2026, Quote ab 2028.",
+   "detail": "Eckpunkte vom 14.10.2026: Quote ab 2028 mit 1 %, bis 2045 steigend, nur Privathaushalte. BMWE kann laut Antwort vom 01.11.2026 Kosten/Mengen nicht beziffern. Gesetzentwurf fällig bis 01.12.2026.",
    "due": "2026-12-01",
    "status": "offen",
    "topic": "Grüngasquote-Gesetz (§ 42a GModG)",
-   "updated": "2026-11-06",
+   "updated": "2026-11-09",
    "url": "https://www.gesetze-im-internet.de/geg/__42a.html"
   },
   {
@@ -246,59 +392,488 @@
    "topic": "WPB-Bonus Einzelmaßnahmen (+5 %)",
    "updated": "2026-11-06",
    "url": "https://www.ihk.de/regensburg/fachthemen/energie-und-umwelt/nachrichten-energie/neuerungen-bei-der-beg-7135820"
-  },
-  {
-   "id": "at-oib2025-laender",
-   "land": "AT",
-   "topic": "OIB-RL 6:2025 in weiteren Bundesländern",
-   "status": "offen",
-   "detail": "Wien und Tirol seit 07/2026; Einführung in den übrigen Bundesländern beobachten.",
-   "due": "",
-   "updated": "2026-11-07",
-   "url": "https://www.oib.or.at"
-  },
-  {
-   "id": "at-sanierungsoffensive-2027",
-   "land": "AT",
-   "topic": "Sanierungsoffensive 2027 – Richtlinien und Beträge",
-   "status": "offen",
-   "detail": "Start 04.01.2027 angekündigt; amtliche Beträge (inkl. Fernwärme, Dämmung) abwarten.",
-   "due": "2027-01-04",
-   "updated": "2026-11-07",
-   "url": "https://www.sanierungsoffensive.gv.at"
-  },
-  {
-   "id": "eu-epbd-de-at",
-   "land": "EU",
-   "topic": "Nationale EPBD-Umsetzung (Skala A–G, Renovierungspass)",
-   "status": "beobachten",
-   "detail": "Frist 29.05.2026 abgelaufen; Umsetzungsstand in DE und AT beobachten.",
-   "due": "",
-   "updated": "2026-11-07",
-   "url": "https://eur-lex.europa.eu/eli/dir/2024/1275/oj"
   }
  ],
- "lib": [],
+ "lib": [
+  {
+   "id": "at-bmluk-sanierungsoffensive-2027",
+   "added": "2026-11-09",
+   "desc": "Budget 2027 (500 Mio. €), förderfähige Maßnahmen und Starttermine.",
+   "group": "Recht & Förderung · Österreich",
+   "land": "AT",
+   "title": "BMLUK: Förderungen für Sanierung und Kesseltausch 2027",
+   "url": "https://www.bmluk.gv.at/themen/klima-und-umwelt/klima/klima-initiativen-und-foerderungen/ufg/sanierung-kesselaustausch-2027.html"
+  },
+  {
+   "id": "at-infoblatt-kesseltausch-2026-efh",
+   "added": "2026-11-09",
+   "desc": "Pauschalen, Abzüge (GWP, UZ37) und Fristen der Registrierungsrunde ab 02.11.2026 (Version 10/2026).",
+   "group": "Recht & Förderung · Österreich",
+   "land": "AT",
+   "title": "Infoblatt Neuauflage Kesseltausch 2026 (EFH/ZFH/Reihenhaus)",
+   "url": "https://www.sanierungsoffensive.gv.at/fileadmin/user_upload/2026/Infoblatt_Neuauflage_Kesseltausch_2026_EFH.pdf"
+  },
+  {
+   "id": "gf-dena-gebaeudereport-2026-update",
+   "added": "2026-11-09",
+   "desc": "Aktualisierte Zahlen zu Gebäudebestand, Sanierung und Heizungsmarkt.",
+   "group": "Gebäudeforum · Gebäudereport",
+   "land": "DE",
+   "title": "dena-Gebäudereport 2026 – Update September",
+   "url": "https://www.gebaeudeforum.de/fileadmin/gebaeudeforum/Downloads/Gebaeudereport/dena-Gebaeudereport_2026_UpdateSeptember.pdf"
+  },
+  {
+   "id": "gf-factsheet-gmodg-kwk",
+   "added": "2026-11-09",
+   "desc": "Factsheet der GModG-Reihe zur Kraft-Wärme-Kopplung im Bestand.",
+   "group": "Gebäudeforum · Factsheets",
+   "land": "DE",
+   "title": "Wärmeerzeugung im Bestand mit EE: Hocheffiziente KWK-Anlage",
+   "url": "https://www.gebaeudeforum.de/fileadmin/gebaeudeforum/Downloads/Factsheet/Factsheet_Waermeerzeugung-GModG_17_Hocheffiziente-KWK.pdf"
+  },
+  {
+   "id": "gf-factsheet-weg-haftungsfolgen",
+   "added": "2026-11-09",
+   "desc": "Haftungsfragen für Eigentümer und Verwaltung bei WEG-Krediten.",
+   "group": "Gebäudeforum · Factsheets",
+   "land": "DE",
+   "title": "Factsheet: Haftungsfolgen bei der Finanzierung von Sanierungen in WEGs",
+   "url": "https://www.gebaeudeforum.de/fileadmin/gebaeudeforum/Downloads/WEG-Praxisguide/Factsheet_Haftungsfolgen_Finanzierung_Gebaeudeforum.pdf"
+  },
+  {
+   "id": "gf-gmodg-lesefassung-2027",
+   "added": "2026-11-09",
+   "desc": "Nichtamtliche Lesefassung des ab 01.01.2027 geltenden Stands (u. a. neue Energieausweis-Regeln).",
+   "group": "Gebäudeforum · Gesetze",
+   "land": "DE",
+   "title": "GModG – Lesefassung 2027 mit Änderungskennzeichnung ggü. GModG 2026",
+   "url": "https://www.gmodg.bund.de/GModG/SharedDocs/Downloads/DE/GMG/GModG27_Kons_Lesefass.pdf?__blob=publicationFile&v=3"
+  },
+  {
+   "id": "gf-isfp-infosheet-aktuelles",
+   "added": "2026-11-09",
+   "desc": "Aktuelle Hinweise zum individuellen Sanierungsfahrplan (Stand 10/2026).",
+   "group": "Gebäudeforum · iSFP-Publikationen",
+   "land": "DE",
+   "title": "Infosheet: Aktuelles zum iSFP",
+   "url": "https://www.gebaeudeforum.de/fileadmin/gebaeudeforum/Downloads/iSFP-Publikation/iSFP-Infosheet-Aktuelles.pdf"
+  },
+  {
+   "id": "gf-quartier-nahwaerme-efh-siedlung",
+   "added": "2026-11-09",
+   "desc": "Beispielkonzept Nahwärme für eine EFH/ZFH-Siedlung.",
+   "group": "Gebäudeforum · Factsheets",
+   "land": "DE",
+   "title": "Erneuerbare Quartiersversorgung auf Nahwärmebasis – Ein- und Zweifamilienhaussiedlung",
+   "url": "https://www.gebaeudeforum.de/fileadmin/gebaeudeforum/Downloads/Studie-Bericht/Erneuerbare-Quartiersversorgung-Nahwaerme_Ein-Zweifamilienhaussiedlung.pdf"
+  },
+  {
+   "id": "gf-quartier-nahwaerme-technologien",
+   "added": "2026-11-09",
+   "desc": "Technologieübersicht; Teil einer Reihe mit Beispielen für Blockrand-, Zeilen-, Reihenhaus- und EFH-Siedlungen.",
+   "group": "Gebäudeforum · Factsheets",
+   "land": "DE",
+   "title": "Erneuerbare Quartiersversorgung auf Nahwärmebasis – Übersicht Technologien",
+   "url": "https://www.gebaeudeforum.de/fileadmin/gebaeudeforum/Downloads/Studie-Bericht/Erneuerbare-Quartiersversorgung-Nahwaerme_Technologien.pdf"
+  },
+  {
+   "id": "gf-weg-entscheidungspfad-finanzierung",
+   "added": "2026-11-09",
+   "desc": "Entscheidungshilfe zwischen Rücklage, Sonderumlage, WEG-Kredit und Einzelfinanzierung.",
+   "group": "Gebäudeforum · Praxishilfen",
+   "land": "DE",
+   "title": "Arbeitshilfe WEG-Finanzierung: Entscheidungspfad Finanzierungswege",
+   "url": "https://www.gebaeudeforum.de/fileadmin/gebaeudeforum/Downloads/WEG-Praxisguide/Arbeitshilfe-Finanzierungswege_WEG_Gebaeudeforum.pdf"
+  },
+  {
+   "id": "gf-weg-musterrechnung-grosses-mfh",
+   "added": "2026-11-09",
+   "desc": "Beispielrechnung Kosten, Förderung und Umlage für ein großes MFH.",
+   "group": "Gebäudeforum · Praxishilfen",
+   "land": "DE",
+   "title": "Arbeitshilfe WEG-Finanzierung: Musterrechnung großes Mehrfamilienhaus",
+   "url": "https://www.gebaeudeforum.de/fileadmin/gebaeudeforum/Downloads/WEG-Praxisguide/Arbeitshilfe-Grosses-Mehrfamilienhaus_WEG_Gebaeudeforum.pdf"
+  },
+  {
+   "id": "gf-weg-musterrechnung-kleines-mfh",
+   "added": "2026-11-09",
+   "desc": "Beispielrechnung Kosten, Förderung und Umlage für ein kleines MFH.",
+   "group": "Gebäudeforum · Praxishilfen",
+   "land": "DE",
+   "title": "Arbeitshilfe WEG-Finanzierung: Musterrechnung kleines Mehrfamilienhaus",
+   "url": "https://www.gebaeudeforum.de/fileadmin/gebaeudeforum/Downloads/WEG-Praxisguide/Arbeitshilfe-Kleines-Mehrfamilienhaus_WEG_Gebaeudeforum.pdf"
+  },
+  {
+   "id": "gf-weg-praxisleitfaden-finanzierung",
+   "added": "2026-11-09",
+   "desc": "Leitfaden zu Finanzierungswegen, Beschlüssen und Förderung bei Sanierungen in Wohnungseigentümergemeinschaften (Stand 10/2026).",
+   "group": "Gebäudeforum · Leitfäden",
+   "land": "DE",
+   "title": "Praxisleitfaden: Finanzierung energetischer Sanierungen in WEGs",
+   "url": "https://www.gebaeudeforum.de/fileadmin/gebaeudeforum/Downloads/WEG-Praxisguide/Praxisleitfaden-Finanzierung_WEG_Gebaeudeforum.pdf"
+  },
+  {
+   "id": "gf-weg-unterlagen-check",
+   "added": "2026-11-09",
+   "desc": "Checkliste der Unterlagen für Kreditgespräche und Förderanträge einer WEG.",
+   "group": "Gebäudeforum · Praxishilfen",
+   "land": "DE",
+   "title": "Arbeitshilfe WEG-Finanzierung: Unterlagen-Check für Bankgespräche und Förderanträge",
+   "url": "https://www.gebaeudeforum.de/fileadmin/gebaeudeforum/Downloads/WEG-Praxisguide/Arbeitshilfe-Unterlagen-Check_WEG_Gebaeudeforum.pdf"
+  },
+  {
+   "id": "norm-din-ts-18599-10-auslegungen",
+   "added": "2026-11-09",
+   "desc": "Korrekturen: Automationsgrad A in Tab. 9 und A.5 = −1,5 statt 1,5; Wartungsbeleuchtungsstärken in Tab. A.27 vertauscht (Stand 05/2026).",
+   "group": "Normen · DIN/TS 18599",
+   "land": "DE",
+   "title": "Auslegungen des NA 005-12-01 GA zu DIN/TS 18599-10:2025-10",
+   "url": "https://www.din.de/resource/blob/1275730/2b621f8edd452ed36ea758c3225307ce/auslegungen-din-ts-18599-10-data.pdf"
+  }
+ ],
  "params": {
-  "stand": "06.11.2026",
-  "quelle": "BEG-Richtlinien vom 21.07.2026, BEG-Infoblatt 11.1 und techn. FAQ 8.0 (ab 01.11.2026)",
+  "at": {
+   "fac": {
+    "fw": {
+     "co2": 51,
+     "fp": 1.6
+    },
+    "gas": {
+     "co2": 247,
+     "fp": 1.1
+    },
+    "holz": {
+     "co2": 4,
+     "fp": 1.13
+    },
+    "lpg": {
+     "co2": 270,
+     "fp": 1.15
+    },
+    "oel": {
+     "co2": 310,
+     "fp": 1.2
+    },
+    "strom": {
+     "co2": 227,
+     "fp": 1.63
+    },
+    "wpstrom": {
+     "co2": 227,
+     "fp": 1.63
+    }
+   },
+   "hhsb": 16.43,
+   "kt": {
+    "ab2027": "2026-11-02",
+    "deckel": 30,
+    "frist": 9,
+    "p2026": {
+     "fw": 6500,
+     "holz": 8500,
+     "solar": 2500,
+     "wp": 7500
+    },
+    "p2027": {
+     "fw": 4000,
+     "holz": 6000,
+     "solar": 2500,
+     "wp": 5000
+    },
+    "registrierung": "02.11.–31.12.2026"
+   },
+   "neueSkala": [
+    "W",
+    "T"
+   ],
+   "skalaAlt": [
+    10,
+    15,
+    25,
+    50,
+    100,
+    150,
+    200,
+    250
+   ],
+   "skalaEeb": [
+    90,
+    110,
+    125,
+    140,
+    155,
+    175
+   ],
+   "skalaHwb": [
+    40,
+    60,
+    75,
+    85,
+    100,
+    120
+   ],
+   "uemp": {
+    "boden": 0.25,
+    "dach": 0.15,
+    "fenster": 0.9,
+    "kd": 0.25,
+    "ogd": 0.15,
+    "tuer": 1.2,
+    "wand": 0.2,
+    "wand_u": 0.3
+   },
+   "umax": {
+    "boden": 0.4,
+    "dach": 0.2,
+    "fenster": 1.4,
+    "kd": 0.4,
+    "ogd": 0.2,
+    "tuer": 1.7,
+    "wand": 0.35,
+    "wand_u": 0.6
+   }
+  },
+  "bb": {
+   "max": 20000,
+   "maxEFH": 5000,
+   "proWE": 2000,
+   "satz": 50
+  },
+  "ch": {
+   "bjVor": 2000,
+   "daemm": 40,
+   "fac": {
+    "fw": {
+     "co2": 50,
+     "fp": 0.6
+    },
+    "gas": {
+     "co2": 200,
+     "fp": 1
+    },
+    "holz": {
+     "co2": 10,
+     "fp": 0.7
+    },
+    "lpg": {
+     "co2": 230,
+     "fp": 1
+    },
+    "oel": {
+     "co2": 265,
+     "fp": 1
+    },
+    "strom": {
+     "co2": 30,
+     "fp": 2
+    },
+    "wpstrom": {
+     "co2": 30,
+     "fp": 2
+    }
+   },
+   "geakPlusAb": 10000,
+   "gesamtRef": {
+    "efh": 120,
+    "mfh": 110
+   },
+   "heizDeckel": 50,
+   "minBeitrag": 2000,
+   "qhli": {
+    "efh": 16,
+    "faktor": 15,
+    "mfh": 13
+   },
+   "skala": [
+    0.5,
+    1,
+    1.5,
+    2,
+    2.5,
+    3
+   ],
+   "soleFaktor": 1.8,
+   "uemp": {
+    "boden": 0.25,
+    "dach": 0.15,
+    "fenster": 0.8,
+    "kd": 0.25,
+    "ogd": 0.17,
+    "tuer": 1,
+    "wand": 0.17,
+    "wand_u": 0.25
+   },
+   "ufoerd": {
+    "boden": 0.25,
+    "dach": 0.2,
+    "kd": 0.25,
+    "ogd": 0.25,
+    "wand": 0.2,
+    "wand_u": 0.25
+   },
+   "umax": {
+    "boden": 0.25,
+    "dach": 0.25,
+    "fenster": 1,
+    "kd": 0.28,
+    "ogd": 0.28,
+    "tuer": 1.2,
+    "wand": 0.25,
+    "wand_u": 0.28
+   },
+   "wpKanton": {
+    "TG": 0,
+    "ZG": 8500,
+    "ZH": 2900
+   },
+   "wpStandard": 5000
+  },
+  "de": {
+   "fac": {
+    "fw": {
+     "co2": 280,
+     "fp": 0.7
+    },
+    "gas": {
+     "co2": 240,
+     "fp": 1.1
+    },
+    "holz": {
+     "co2": 20,
+     "fp": 0.2
+    },
+    "lpg": {
+     "co2": 270,
+     "fp": 1.1
+    },
+    "oel": {
+     "co2": 310,
+     "fp": 1.1
+    },
+    "strom": {
+     "co2": 560,
+     "fp": 1.8
+    },
+    "wpstrom": {
+     "co2": 560,
+     "fp": 1.8
+    }
+   },
+   "ubeg": {
+    "boden": 0.25,
+    "dach": 0.14,
+    "fenster": 0.95,
+    "kd": 0.25,
+    "ogd": 0.14,
+    "tuer": 1.3,
+    "wand": 0.2,
+    "wand_u": 0.25
+   },
+   "umax": {
+    "boden": 0.3,
+    "dach": 0.24,
+    "fenster": 1.3,
+    "kd": 0.3,
+    "ogd": 0.24,
+    "tuer": 1.8,
+    "wand": 0.24,
+    "wand_u": 0.3
+   }
+  },
+  "ebw": {
+   "maxEFH": 650,
+   "maxMFH": 850,
+   "satz": 50,
+   "weg": 250
+  },
   "em": {
-   "satz": 15,
-   "isfpBonus": 5,
    "cap": [
     30000,
     15000,
     8000
    ],
-   "wpbBonus": 5,
-   "wpbAb": "2027-01-01",
+   "isfpBonus": 5,
    "optEmission": 50,
-   "sperrfristWG": 3
+   "satz": 15,
+   "sperrfristWG": 3,
+   "wpbAb": "2027-01-01",
+   "wpbBonus": 5
+  },
+  "eu": {
+   "fac": {
+    "fw": {
+     "co2": 200,
+     "fp": 1
+    },
+    "gas": {
+     "co2": 202,
+     "fp": 1.1
+    },
+    "holz": {
+     "co2": 20,
+     "fp": 0.2
+    },
+    "lpg": {
+     "co2": 230,
+     "fp": 1.1
+    },
+    "oel": {
+     "co2": 266,
+     "fp": 1.1
+    },
+    "strom": {
+     "co2": 250,
+     "fp": 1.9
+    },
+    "wpstrom": {
+     "co2": 250,
+     "fp": 1.9
+    }
+   },
+   "skala": [
+    60,
+    90,
+    120,
+    160,
+    200,
+    250
+   ]
   },
   "h458": {
+   "capWE": [
+    15000,
+    8000
+   ],
+   "deckel": 80,
+   "ek": [
+    [
+     30000,
+     40
+    ],
+    [
+     40000,
+     30
+    ],
+    [
+     50000,
+     10
+    ]
+   ],
+   "famZuschlag": 10000,
    "grund": 30,
    "grundNichtEU": 15,
-   "nichtEUab": "2027-01-01",
+   "hoechst": 28000,
+   "hoechstStep": 750,
+   "hoechstSteps": [
+    "2027-02-01",
+    "2027-08-01",
+    "2028-02-01",
+    "2028-08-01",
+    "2029-02-01",
+    "2029-08-01",
+    "2030-02-01",
+    "2030-08-01"
+   ],
    "kgb": [
     [
      "2000-01-01",
@@ -321,52 +896,24 @@
      0
     ]
    ],
-   "hoechst": 28000,
-   "hoechstStep": 750,
-   "hoechstSteps": [
-    "2027-02-01",
-    "2027-08-01",
-    "2028-02-01",
-    "2028-08-01",
-    "2029-02-01",
-    "2029-08-01",
-    "2030-02-01",
-    "2030-08-01"
-   ],
-   "ek": [
-    [
-     30000,
-     40
-    ],
-    [
-     40000,
-     30
-    ],
-    [
-     50000,
-     10
-    ]
-   ],
-   "famZuschlag": 10000,
-   "deckel": 80,
-   "capWE": [
-    15000,
-    8000
-   ]
+   "nichtEUab": "2027-01-01"
   },
-  "ebw": {
-   "satz": 50,
-   "maxEFH": 650,
-   "maxMFH": 850,
-   "weg": 250
+  "normenUpd": {
+   "AT": [],
+   "CH": [],
+   "DE": [],
+   "EU": []
   },
-  "bb": {
-   "satz": 50,
-   "maxEFH": 5000,
-   "proWE": 2000,
-   "max": 20000
+  "quelle": "BEG-Richtlinien vom 21.07.2026, BEG-Infoblatt 11.1 und techn. FAQ 8.0 (ab 01.11.2026); AT: Infoblatt Neuauflage Kesseltausch 2026 EFH (Version 10/2026, sanierungsoffensive.gv.at)",
+  "s35c": {
+   "max": 40000,
+   "satz": 20
   },
+  "stand": "09.11.2026",
   "wg": {
+   "eePflicht": true,
+   "kreditWE": 150000,
+   "nh": 5,
    "tz": {
     "40": 10,
     "55": 5,
@@ -374,302 +921,7 @@
     "85": 0,
     "Denkmal": 5
    },
-   "nh": 5,
-   "wpb": 10,
-   "kreditWE": 150000,
-   "eePflicht": true
-  },
-  "s35c": {
-   "satz": 20,
-   "max": 40000
-  },
-  "de": {
-   "fac": {
-    "gas": {
-     "fp": 1.1,
-     "co2": 240
-    },
-    "oel": {
-     "fp": 1.1,
-     "co2": 310
-    },
-    "lpg": {
-     "fp": 1.1,
-     "co2": 270
-    },
-    "strom": {
-     "fp": 1.8,
-     "co2": 560
-    },
-    "wpstrom": {
-     "fp": 1.8,
-     "co2": 560
-    },
-    "holz": {
-     "fp": 0.2,
-     "co2": 20
-    },
-    "fw": {
-     "fp": 0.7,
-     "co2": 280
-    }
-   },
-   "umax": {
-    "wand": 0.24,
-    "wand_u": 0.3,
-    "dach": 0.24,
-    "ogd": 0.24,
-    "kd": 0.3,
-    "boden": 0.3,
-    "fenster": 1.3,
-    "tuer": 1.8
-   },
-   "ubeg": {
-    "wand": 0.2,
-    "wand_u": 0.25,
-    "dach": 0.14,
-    "ogd": 0.14,
-    "kd": 0.25,
-    "boden": 0.25,
-    "fenster": 0.95,
-    "tuer": 1.3
-   }
-  },
-  "at": {
-   "fac": {
-    "gas": {
-     "fp": 1.1,
-     "co2": 247
-    },
-    "oel": {
-     "fp": 1.2,
-     "co2": 310
-    },
-    "lpg": {
-     "fp": 1.15,
-     "co2": 270
-    },
-    "strom": {
-     "fp": 1.63,
-     "co2": 227
-    },
-    "wpstrom": {
-     "fp": 1.63,
-     "co2": 227
-    },
-    "holz": {
-     "fp": 1.13,
-     "co2": 4
-    },
-    "fw": {
-     "fp": 1.6,
-     "co2": 51
-    }
-   },
-   "umax": {
-    "wand": 0.35,
-    "wand_u": 0.6,
-    "dach": 0.2,
-    "ogd": 0.2,
-    "kd": 0.4,
-    "boden": 0.4,
-    "fenster": 1.4,
-    "tuer": 1.7
-   },
-   "uemp": {
-    "wand": 0.2,
-    "wand_u": 0.3,
-    "dach": 0.15,
-    "ogd": 0.15,
-    "kd": 0.25,
-    "boden": 0.25,
-    "fenster": 0.9,
-    "tuer": 1.2
-   },
-   "skalaAlt": [
-    10,
-    15,
-    25,
-    50,
-    100,
-    150,
-    200,
-    250
-   ],
-   "skalaHwb": [
-    40,
-    60,
-    75,
-    85,
-    100,
-    120
-   ],
-   "skalaEeb": [
-    90,
-    110,
-    125,
-    140,
-    155,
-    175
-   ],
-   "neueSkala": [
-    "W",
-    "T"
-   ],
-   "hhsb": 16.43,
-   "kt": {
-    "p2026": {
-     "wp": 7500,
-     "holz": 8500,
-     "fw": 6500,
-     "solar": 2500
-    },
-    "p2027": {
-     "wp": 5000,
-     "holz": 6000,
-     "fw": 0,
-     "solar": 0
-    },
-    "ab2027": "2027-01-04",
-    "deckel": 30,
-    "registrierung": "02.11.–31.12.2026",
-    "frist": 9
-   }
-  },
-  "ch": {
-   "fac": {
-    "gas": {
-     "fp": 1,
-     "co2": 200
-    },
-    "oel": {
-     "fp": 1,
-     "co2": 265
-    },
-    "lpg": {
-     "fp": 1,
-     "co2": 230
-    },
-    "strom": {
-     "fp": 2,
-     "co2": 30
-    },
-    "wpstrom": {
-     "fp": 2,
-     "co2": 30
-    },
-    "holz": {
-     "fp": 0.7,
-     "co2": 10
-    },
-    "fw": {
-     "fp": 0.6,
-     "co2": 50
-    }
-   },
-   "umax": {
-    "wand": 0.25,
-    "wand_u": 0.28,
-    "dach": 0.25,
-    "ogd": 0.28,
-    "kd": 0.28,
-    "boden": 0.25,
-    "fenster": 1,
-    "tuer": 1.2
-   },
-   "ufoerd": {
-    "wand": 0.2,
-    "wand_u": 0.25,
-    "dach": 0.2,
-    "ogd": 0.25,
-    "kd": 0.25,
-    "boden": 0.25
-   },
-   "uemp": {
-    "wand": 0.17,
-    "wand_u": 0.25,
-    "dach": 0.15,
-    "ogd": 0.17,
-    "kd": 0.25,
-    "boden": 0.25,
-    "fenster": 0.8,
-    "tuer": 1
-   },
-   "skala": [
-    0.5,
-    1,
-    1.5,
-    2,
-    2.5,
-    3
-   ],
-   "qhli": {
-    "efh": 16,
-    "mfh": 13,
-    "faktor": 15
-   },
-   "gesamtRef": {
-    "efh": 120,
-    "mfh": 110
-   },
-   "daemm": 40,
-   "minBeitrag": 2000,
-   "bjVor": 2000,
-   "geakPlusAb": 10000,
-   "wpKanton": {
-    "ZH": 2900,
-    "ZG": 8500,
-    "TG": 0
-   },
-   "wpStandard": 5000,
-   "soleFaktor": 1.8,
-   "heizDeckel": 50
-  },
-  "eu": {
-   "fac": {
-    "gas": {
-     "fp": 1.1,
-     "co2": 202
-    },
-    "oel": {
-     "fp": 1.1,
-     "co2": 266
-    },
-    "lpg": {
-     "fp": 1.1,
-     "co2": 230
-    },
-    "strom": {
-     "fp": 1.9,
-     "co2": 250
-    },
-    "wpstrom": {
-     "fp": 1.9,
-     "co2": 250
-    },
-    "holz": {
-     "fp": 0.2,
-     "co2": 20
-    },
-    "fw": {
-     "fp": 1,
-     "co2": 200
-    }
-   },
-   "skala": [
-    60,
-    90,
-    120,
-    160,
-    200,
-    250
-   ]
-  },
-  "normenUpd": {
-   "DE": [],
-   "AT": [],
-   "CH": [],
-   "EU": []
+   "wpb": 10
   }
  }
 }
